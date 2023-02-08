@@ -29,12 +29,13 @@ export class FormularioComponent implements OnInit {
 
   paises: any[] = [
 
-    {value: "us", nombre: "Estados Unidos"},
+    {value: "us", nombre: "United States"},
     {value: "ca", nombre: "Canada"},
     {value: "cn", nombre: "China"},
-    {value: "gb", nombre: "Reino Unido"},
-    {value: "it", nombre: "Italia"},
-    {value: "jp", nombre: "Japon"},
+    {value: "gb", nombre: "United Kingdom"},
+    {value: "it", nombre: "Italy"},
+    {value: "jp", nombre: "Japan"},
+    {value: "tr", nombre: "Turkey"},
 
 
 
@@ -45,9 +46,9 @@ export class FormularioComponent implements OnInit {
     {value: "co", nombre: "Colombia"},
     {value: "cr", nombre: "Costa Rica"},
     {value: "br", nombre: "Brasil"},
-    {value: "ru", nombre: "Rusia"},
-    {value: "ua", nombre: "Ucrania"},
-    {value: "de", nombre: "Alemania"},
+    {value: "ru", nombre: "Russia"},
+    {value: "ua", nombre: "Ukraine"},
+    {value: "de", nombre: "Germany"},
     {value: "pe", nombre: "Perú"},
 
 
